@@ -26,7 +26,7 @@ module.export = {
     ],
     // plugin: 满足构建中的特殊需求，处理其他的一些构建任务
     plugin:[
-        new ullifyPlugin()
+        new uglifyPlugin()
     ],
     //output: webpack构建完最终输出的静态文件
     output:{
